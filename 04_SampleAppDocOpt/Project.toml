@@ -1,0 +1,7 @@
+name = "SampleAppDocOpt"
+uuid = "85c769da-c200-4a48-aecb-9fca35d8e34e"
+authors = ["Roman S Samarev <samarev@acm.org>"]
+version = "0.1.0"
+
+[deps]
+DocOpt = "968ba79b-81e4-546f-ab3a-2eecfa62a9db"

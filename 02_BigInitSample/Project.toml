@@ -1,0 +1,31 @@
+name = "TwoGbCompilerIssue"
+uuid = "8c49f4a1-ee0f-4eff-81b6-3c8204cbb254"
+authors = ["Roman S Samarev <samarev@acm.org>"]
+version = "0.1.0"
+
+[deps]
+BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
+Bukdu = "3e78a19a-cc83-51d8-955b-515f39fd7955"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+DocOpt = "968ba79b-81e4-546f-ab3a-2eecfa62a9db"
+Embeddings = "c5bfea45-b7f1-5224-a596-15500f5db411"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+HNSW = "540f64fa-c57e-11e8-081c-41422cda4629"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+SimilaritySearch = "053f045d-5466-53fd-b400-a066f88fe02a"
+Transformers = "21ca0261-441d-5938-ace7-c90938fde4d4"
+Unmarshal = "cbff2730-442d-58d7-89d1-8e530c41eb02"
+WordTokenizers = "796a5d58-b03d-544a-977e-18100b691f6e"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
